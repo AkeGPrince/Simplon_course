@@ -1,0 +1,13 @@
+Ouvrer le fichier .sql dans votre éditeur de code.
+
+A partir de ce fichier, recréer le modèle de données de cette BDD. (vous savez le schéma que je vous avez demandé de représenter
+lors des précédents exos sur les BDD).
+Pour ce, vous utiliserez cette outil: https://app.diagrams.net/
+
+
+Vous n'oublierez pas de mentionner:
+- le typage
+- les contraintes (si présence de contraintes)
+- la(es) clé(s) primaire(s)
+- les clés étrangères (si présence de clé étrangère).
+- les liaisons entre les tables

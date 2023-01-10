@@ -1,0 +1,9 @@
+Exercice 1: 
+Créer la table dans MySQL associée au schéma fourni dans le pdf.
+Utiliser les bons typages, mettre les contraintes lorsque nécessaires et faire apparaître les clés étrangères.
+Insérer les données indiquées dans le schéma 
+
+Exercice Bonus:
+Reprener le premier fichier world.sql précédent.
+Ouvrer MySQL, importez-le et faîtes une requête très simple pour voir si tout fonctionne.
+Vous pouvez obtenir un schéma de données automatiquement généré par MySQL. Le faire, et comparer celui de MySQL avec le votre

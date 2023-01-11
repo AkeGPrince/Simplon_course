@@ -91,6 +91,7 @@ with col2:
     else:
         inp = st.selectbox('“You will find only what you bring in.“ - Yoda', names)
 
+@st.cache
 def category(pick, inp):
     if pick == "" and inp == "":
         result = ""

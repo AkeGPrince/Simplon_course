@@ -66,11 +66,35 @@ VALUES
 (7, 7, "2013-04-09", 1),
 (7, 9, "2012-12-31", 4);
 
+-- 1/Ajouter le client suivant: ("Thomas", "Andurand", "21, rue des affections", 33000, "Bordeaux")
 
-/** -- TEST Jointure
-use `location`;
+INSERT INTO Clients (codecli, prenomcli, nomcli, ruecli, cpcli, villecli)
+VALUES
+(12, "Thomas", "Andurand", "21, rue des affections", 33000, "Bordeaux");
+
+-- 2/Créer une colonne dans la table client intitulée "Television".
+
+ALTER TABLE Clients
+ADD Televison varchar(255);
+
+
+-- 3/Supprimer la colonne associée au Code Postale
+
+ALTER TABLE Clients
+DROP COLUMN cpcli;
+
+-- 4/Supprimer la ligne dans la table 'locations' affiche une durée de film de 5h
+
+
+DELETE FROM Locations
+WHERE duree = 5;
+
+DROP TABLE Locations;
+
+-- 5/Supprimer la table Locations. Peut-on encore faire une jointure entre Clients et Films ?
+
+NON
 
 Select * FROM Clients
 JOIN Locations ON Clients.codecli = Locations.codecli
 join Films on Films.codefilm = Locations.codefilm
-*/ 

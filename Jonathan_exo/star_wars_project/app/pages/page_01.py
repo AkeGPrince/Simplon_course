@@ -1,9 +1,6 @@
 
-import pandas
-import numpy
-import seaborn
-import matplotlib
-import sklearn
+import pandas as pd
+import numpy as np
 import streamlit as st
 
 def add_bg_from_url():

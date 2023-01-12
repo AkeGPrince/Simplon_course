@@ -39,7 +39,7 @@ bmi = poids / taille
 
 
 def prediction(ages, bmis, childrens, smokers, sexs):
-    url= f"http://127.0.0.1:8000/?age={ages}&bmi={bmis}&children={childrens}&smoker={smokers}&sex={sexs}"
+    url= f"http://localhost:8000/?age={ages}&bmi={bmis}&children={childrens}&smoker={smokers}&sex={sexs}"
     response = req.get(url).json()["prédiction"]
     return f"The estimate cost of your insurance is: {response}$ "
 

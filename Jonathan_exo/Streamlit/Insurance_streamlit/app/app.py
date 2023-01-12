@@ -13,7 +13,7 @@ st.text("")
 
 
 col1, mid, col2 = st.columns([30,1,30])
-with col2:
+#with col2:
     #st.image('./data/avatar.png', width=400)
 with col1:
     st.markdown("# H. Gxxxxx \n ## Consultant Data Junior")

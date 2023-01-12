@@ -1,8 +1,5 @@
 import pandas
 import numpy
-import seaborn
-import matplotlib
-import sklearn
 import streamlit as st
 
 

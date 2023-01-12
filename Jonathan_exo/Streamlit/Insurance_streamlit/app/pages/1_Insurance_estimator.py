@@ -1,7 +1,6 @@
-import numpy as np
+
 import pandas as pd
 import streamlit as st
-import seaborn as sns
 import requests as req
 from datetime import datetime, date, time, timezone
 

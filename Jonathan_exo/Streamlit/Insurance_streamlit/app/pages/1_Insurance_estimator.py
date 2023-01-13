@@ -39,7 +39,7 @@ bmi = poids / taille
 
 
 def prediction(ages, bmis, childrens, smokers, sexs):
-    url= f"https://8e58-31-187-69-237.eu.ngrok.io/?age={ages}&bmi={bmis}&children={childrens}&smoker={smokers}&sex={sexs}"
+    url= f"https://96ac-2a02-8440-6141-3350-21d9-75e7-41b0-518e.eu.ngrok.io/?age={ages}&bmi={bmis}&children={childrens}&smoker={smokers}&sex={sexs}"
     response = req.get(url).json()["prédiction"]
     return f"The estimate cost of your insurance is: {response}$ "
 

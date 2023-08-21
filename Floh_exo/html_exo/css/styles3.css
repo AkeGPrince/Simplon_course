@@ -1,8 +1,0 @@
-.congratulations {
-  display: flex;
-  color: #e687ae;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  align-items: center;
-}
